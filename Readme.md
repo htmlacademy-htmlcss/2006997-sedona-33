@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Евгений Матвеев](https://up.htmlacademy.ru/htmlcss/33/user/2006997).
-* Наставник: `Александр`(https://htmlacademy.ru/profile/id621939)
+* Наставник: `Александр Митохин 222`(https://htmlacademy.ru/profile/id621939)
 
 ---
 
