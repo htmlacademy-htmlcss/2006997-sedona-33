@@ -21,6 +21,16 @@ body {
     color: black;
 }
 
+button {
+    width: 700;
+    size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #83B3D3;
+}
+
 .navigation-link  {
     font-size: 20px;
     line-height: 26px;
@@ -30,103 +40,53 @@ body {
     text-decoration: none;
 }
 .main-index {
-    background-image: url("/images/index-background.jpg");
-    background-color: white;
-    background-repeat: no-repeat;
+    background-color: rgba(131, 179, 211, 0.12);
+    background-image: url("/images/index-background.jpg") ;
     background-size: 100% auto;
-    color: black
-    width: 1200;
-    height: 485;
+    background-repeat: no-repeat;
   }
-
-  .logo-center {
+.logo-center {
       display: block;
       margin-left: auto;
       margin-right: auto;
   }
-
-.offer {
+  .main-index-title {
+      color: #000000
+      width: 700;
+      size: 30px;
+      line-height: 36px;
       text-align: center;
+      text-transform: uppercase;
   }
-.offer h2 {
+  .main-index-description {
+    color: #333333
+    width: 400;
+    size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+
+
+
+
+.newsletter {
+    background-color: black;
+    background-image: url("/images/background-letter.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.newsletter-title {
     width: 700;
     size: 30px;
     line-height: 36px;
     text-transform: uppercase;
-    font-weight: bold;
 }
-.offer p {
+.newsletter-description {
     width: 400;
     size: 22px;
-    line-height: 36px;
+    line-height: 26px;
 }
-.advantages-list-long {
-    background: #83B3D3;
-    color: white;
-}
-
-.icon-hous {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.icon-food{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.icon-present {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.advanfates-title {
-    width: 700;
-    size: 24px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.advanfates-description {
-    width: 400;
-    size: 18px;
-    line-height: 21px;
-    text-align: center;
-}
-.advanfates-item {
-    background: #FFFFFF;
-}
-.advanfates-item:first-child {
-    background: #83B3D31F;
-}
-.advanfates-item:last-child {
-    background: #83B3D31F; 
-}
-
-.advanfates-title-no-icon {
-    width: 700;
-    size: 24px;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.advanfates-description-no-icon {
-    width: 400;
-    size: 18px;
-    line-height: 21px;
-    text-align: center;
-}
-.advanfates-item-no-icon {
-    background: rgba(131, 179, 211, 0.2);
-}
-.advanfates-item-no-icon:first-child {
-    background: rgba(131, 179, 211, 0.12);
-}
-.advanfates-item-no-icon:last-child {
-    background: rgba(131, 179, 211, 0.12);
-}
-.hotel-search {
-    background: white;
-    text-align: center;
-}
-
