@@ -1,0 +1,132 @@
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.wolff2") format("woff2")
+    font-display: swap;
+}
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: white;
+    color: black;
+}
+
+.navigation-link  {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.main-index {
+    background-image: url("/images/index-background.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: black
+    width: 1200;
+    height: 485;
+  }
+
+  .logo-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+.offer {
+      text-align: center;
+  }
+.offer h2 {
+    width: 700;
+    size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.offer p {
+    width: 400;
+    size: 22px;
+    line-height: 36px;
+}
+.advantages-list-long {
+    background: #83B3D3;
+    color: white;
+}
+
+.icon-hous {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-food{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-present {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.advanfates-title {
+    width: 700;
+    size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.advanfates-description {
+    width: 400;
+    size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.advanfates-item {
+    background: #FFFFFF;
+}
+.advanfates-item:first-child {
+    background: #83B3D31F;
+}
+.advanfates-item:last-child {
+    background: #83B3D31F; 
+}
+
+.advanfates-title-no-icon {
+    width: 700;
+    size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.advanfates-description-no-icon {
+    width: 400;
+    size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.advanfates-item-no-icon {
+    background: rgba(131, 179, 211, 0.2);
+}
+.advanfates-item-no-icon:first-child {
+    background: rgba(131, 179, 211, 0.12);
+}
+.advanfates-item-no-icon:last-child {
+    background: rgba(131, 179, 211, 0.12);
+}
+.hotel-search {
+    background: white;
+    text-align: center;
+}
+
