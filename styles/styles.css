@@ -17,7 +17,7 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 
@@ -37,6 +37,16 @@ button {
     font-weight: 700;
     font-size: 22px;
     line-height: 36px;
+}
+.product-card-button-detail {
+    background: #756257;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .navigation-link  {
@@ -94,8 +104,50 @@ button {
 }
 
 
+.filter-grup {
+    background-image: url("/images/catalog-background-1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #83B3D3;
+    color: white;
+}
+.inner-header-tittle {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+.breadcrumbs-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px
+}
+.catalog-filter-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.control-imput {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.product-card-link {
+    text-decoration: none;
+}
+.product-card-title {
+    color: #000000;
+    background-color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+.product-card-prise{
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
 
-
+}
 .newsletter {
     background-color: black;
     background-image: url("/images/background-letter.jpg");
