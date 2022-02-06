@@ -48,7 +48,13 @@ button {
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.buttom-paginatio-show-more {
+    background-color: #83B3D3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
 .navigation-link  {
     font-size: 20px;
     line-height: 26px;
@@ -146,7 +152,18 @@ button {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
+}
 
+.sorting-container {
+    color: #FFFFFF;
+    background-color: #83B3D3;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.pagination-link-pagination-prev-pagination-disabled {
+    color:#000000;
+    background-color: #F2F2F2;
 }
 .newsletter {
     background-color: black;
@@ -166,4 +183,19 @@ button {
     font-weight: 400;
     size: 22px;
     line-height: 26px;
+}
+.footer-nunber {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    
+}
+.number-phone {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
