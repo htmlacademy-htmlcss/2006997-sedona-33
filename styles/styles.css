@@ -65,8 +65,8 @@ button {
     text-decoration: none;
 }
 .main-index {
+    background-image: url("/images/index-background.jpg");
     background-color: rgba(131, 179, 211, 0.12);
-    background-image: url("/images/index-background.jpg") ;
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
@@ -167,8 +167,8 @@ button {
     background-color: #F2F2F2;
 }
 .newsletter {
-    background-color: black;
     background-image: url("/images/background-letter.jpg");
+    background-color: black;
     background-size: 100% auto;
     background-repeat: no-repeat;
     text-align: center;
