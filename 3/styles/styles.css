@@ -1,0 +1,201 @@
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.wolff2") format("woff2")
+    font-display: swap;
+}
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+button {
+    font-weight: 700;
+    size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #83B3D3;
+}
+
+.button-search {
+    background: #756257;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+}
+.product-card-button-detail {
+    background: #756257;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.buttom-paginatio-show-more {
+    background-color: #83B3D3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.navigation-link  {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.main-index {
+    background-color: rgba(131, 179, 211, 0.12);
+    background-image: url("/images/index-background.jpg") ;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+.logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-index-title {
+    color: #000000;
+    font-weight: 700;
+    size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .main-index-description {
+    color: #333333;
+    font-weight: 400;
+    size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.hotel-search {
+    background-color: white;
+    color:#000000 ;
+    text-align: center;
+}
+.hotel-search-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+}
+.hotel-search-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+
+.filter-grup {
+    background-image: url("/images/catalog-background-1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #83B3D3;
+    color: white;
+}
+.inner-header-tittle {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+.breadcrumbs-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px
+}
+.catalog-filter-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.control-imput {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.product-card-link {
+    text-decoration: none;
+}
+.product-card-title {
+    color: #000000;
+    background-color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+.product-card-prise{
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.sorting-container {
+    color: #FFFFFF;
+    background-color: #83B3D3;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.pagination-link-pagination-prev-pagination-disabled {
+    color:#000000;
+    background-color: #F2F2F2;
+}
+.newsletter {
+    background-color: black;
+    background-image: url("/images/background-letter.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.newsletter-title {
+    font-weight: 700;
+    size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.newsletter-description {
+    font-weight: 400;
+    size: 22px;
+    line-height: 26px;
+}
+.footer-nunber {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    
+}
+.number-phone {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
