@@ -65,7 +65,7 @@ button {
     text-decoration: none;
 }
 .main-index {
-    background-image: url("/images/index-background.jpg");
+    background-image: url("images/index-background.jpg");
     background-color: #FFFFFF;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ button {
 
 
 .filter-grup {
-    background-image: url("/images/catalog-background-1.jpg");
+    background-image: url("images/catalog-background-1.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #83B3D3;
@@ -176,7 +176,7 @@ button {
     background-color: #F2F2F2;
 }
 .newsletter {
-    background-image: url("/images/background-letter.jpg");
+    background-image: url("images/background-letter.jpg");
     background-color: black;
     background-size: 100% auto;
     background-repeat: no-repeat;
