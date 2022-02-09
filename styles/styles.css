@@ -22,7 +22,7 @@ body {
     color: black;
 }
 
-button {
+.button {
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
