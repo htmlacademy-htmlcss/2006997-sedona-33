@@ -22,14 +22,14 @@ body {
     color: black;
 }
 
-.button {
+.button-user-link {
+    background-color: #756257;
+    color: #FFFFFF;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #83B3D3;
 }
 
 .button-search {
@@ -38,6 +38,24 @@ body {
     font-weight: 700;
     font-size: 22px;
     line-height: 36px;
+}
+.button-product-card {
+    background-color: #83B3D3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.newsletter-button {
+    background-color: #83B3D3;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .product-card-button-detail {
     background: #756257;
@@ -55,6 +73,8 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .navigation-link  {
     font-size: 20px;
