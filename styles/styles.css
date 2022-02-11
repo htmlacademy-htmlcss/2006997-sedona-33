@@ -14,7 +14,15 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -84,17 +92,46 @@ body {
     text-align: center;
     text-decoration: none;
 }
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.navigation-list {
+    margin: 0;
+    padding: 0;
+}
+.user-list {
+    max-width: 250px;
+    margin-left: auto;
+}
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-container {
+    flex-grow: 1;
+}
 .main-index {
     background-image: url("/images/index-background.jpg");
     background-color: #FFFFFF;
     background-size: 100% auto;
     background-repeat: no-repeat;
-  }
-.logo-center {
+}
+
+.logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    margin: 0 auto;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+}
   .main-index-title {
     color: #000000;
     font-weight: 700;
