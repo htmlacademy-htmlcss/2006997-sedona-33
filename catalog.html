@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <title>Каталог гостиниц</title>
   </head>
   <body>
     <a class="navigation-logo" href="#">
       <img class="page-header-logo" alt="Логотип Седона»." src="images/logo.svg" width="139" height="70"> 
     </a>
     <header class="page-header">
-        <nav class="navigation">
-          <ul class="navigation-list">
+     <nav class="navigation">
+       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link" href="about.html">Главная</a>
         </li>
@@ -22,8 +23,7 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
           </ul>
-        </nav> 
-        <ul class="user-list">
+        <ul class="navigation-list user-list">
           <li class="user-item">
             <a class="navigation-link" href="#">
             <span class="visually-hidden">Поиск</span>
@@ -38,9 +38,11 @@
           <button class="button-user-link">Хочу сюда</button>
           </li>
         </ul>
+      </nav> 
          </header>
 <main class="main-inner">
-    <div class="filter-grup">
+  <div class="page-container">
+<div class="filter-grup">
       <div class="inner-header">
         <h1 class="inner-header-tittle">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
@@ -52,9 +54,9 @@
         </li> 
       </ul>
       </div>
-    </div>
+    
 <section class="catalog-products">
-    <h2 class="visually-hidden">Список фильтров для гостиницы</h2>
+    <h2 class="visually-hidden" hidden>Список фильтров для гостиницы</h2>
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
       <fieldset class="catalog-filter-group">   
         <legend class="catalog-filter-title">Инфраструктура</legend>
@@ -99,6 +101,7 @@
     <button class="button" type="submit">Применить</button>
     </form>
   </section>
+</div>
   <div class="hotels-found">
     <h3 class="hotels-found">Найдено гостиниц: 38</h3>
   </div>
@@ -203,8 +206,10 @@
           </button>
     </form>
     </section>
+  </div>    
 </main>
 <footer class="footer-page">
+  <div class="footer-page-container">
   <div class="footer-social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
@@ -227,17 +232,18 @@
             </a>
         </li>
       </ul>
-    </div>
-  <div class="footer-nunber">
+      </div>
+      <div class="footer-nunber">
           <h2 class="visually-hidden">Номер телефона</h2>
           <a class="number-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
-  </div>
-  <div class="footer-logo">
+      </div>
+      <div class="footer-logo">
           <h2 class="visually-hidden">Логотип</h2>
           <a class="footer-logo" href="https://htmlacademy.ru/">
           <img class="footer-logo-page" src="images/htmlak-logo.svg" width="115" height="34" alt="Логотип HTML Academy">
           </a>
-        </div>          
+        </div>
+      </div>            
 </footer>
 </body>
 </html>
