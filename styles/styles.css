@@ -158,8 +158,23 @@ body {
     line-height: 36px;
     text-align: center;
 }
-
-
+.advantages-list-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #83B3D31F;
+    color: #000000;
+    text-align: center;
+}
+.advanfates-title-icon {
+    width: 400px;
+    height: 384px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .hotel-search {
     background-color: #FFFFFF;
     color:#000000 ;
