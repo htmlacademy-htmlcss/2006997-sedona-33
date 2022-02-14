@@ -3,7 +3,7 @@
     font-family:"PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2") format("woff2")
+    src: url("/fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
@@ -41,6 +41,9 @@ body {
 }
 
 .button-search {
+    width: 575px;
+    margin-left: 313px;
+    margin-right: 312px;
     background: #756257;
     color: #FFFFFF;
     font-weight: 700;
@@ -107,7 +110,7 @@ body {
 }
 .welcome {
     width: 1200px;
-    background-image: url("/images/index-background.jpg");
+    background-image: url("../images/index-background.jpg");
 }
 .offer {
     width: 1200px;
@@ -182,6 +185,7 @@ body {
     text-align: center;
 }
 .hotel-search {
+    width: 1200px;
     background-color: #FFFFFF;
     color:#000000 ;
     text-align: center;
@@ -201,7 +205,7 @@ body {
 
 
 .filter-grup {
-    background-image: url("/images/catalog-background-1.jpg");
+    background-image: url("../images/catalog-background-1.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #83B3D3;
@@ -272,7 +276,9 @@ body {
     background-color: #F2F2F2;
 }
 .newsletter {
-    background-image: url("/images/background-letter.jpg");
+    width: 1200px;
+    height: 411px;
+    background-image: url("../images/background-letter.jpg");
     background-color: black;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -290,11 +296,26 @@ body {
     font-size: 22px;
     line-height: 26px;
 }
+
+.footer-pafe-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+
+}
 .footer-nunber {
+    width: 720px;
+    margin-left: 240px;
     color: #000000;
     background-color: #FFFFFF;
     text-align: center;
     
+}
+.footer-logo {
+    width: 115px;
+    margin-left: 720px;
 }
 .number-phone {
     color: #000000;
