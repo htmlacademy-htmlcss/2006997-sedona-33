@@ -215,6 +215,10 @@ body {
     color: #333333;
 }
 
+.catalog-products{
+    font-size: 45px;
+    color: rgb(85, 247, 10);
+}
 
 .filter-grup {
     background-image: url("/images/catalog-background-1.jpg"); 

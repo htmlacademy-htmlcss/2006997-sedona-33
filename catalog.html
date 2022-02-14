@@ -2,9 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Каталог</title>
-    <link rel="stylesheet" href="styles/styles.css">
     <title>Каталог гостиниц</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <a class="navigation-logo" href="#">
@@ -40,32 +39,34 @@
         </ul>
       </nav> 
          </header>
+
+
 <main class="main-inner">
   <div class="page-container">
-<div class="filter-grup">
+     <div class="filter-grup">
       <div class="inner-header">
         <h1 class="inner-header-tittle">Гостиницы Седоны</h1>
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">
+         <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">Главная</a>
-        </li>
-        <li class="breadcrumbs-item">
+          </li>
+          <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Гостиницы</a>
-        </li> 
-      </ul>
+          </li> 
+         </ul>
       </div>
-    
-<section class="catalog-products">
-    <h2 class="visually-hidden" hidden>Список фильтров для гостиницы</h2>
-    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-      <fieldset class="catalog-filter-group">   
-        <legend class="catalog-filter-title">Инфраструктура</legend>
+
+    <section class="catalog-products">
+     <h2 class="visually-hidden" hidden>Список фильтров для гостиницы</h2>
+       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <fieldset class="catalog-filter-group">   
+         <legend class="catalog-filter-title">Инфраструктура</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-        <label class="control">
+         <label class="control">
             <input class="control-imput" type="checkbox" name="pool" checked>Бассейн
-        </label>
-              </li>
+         </label>
+            </li>
             <li class="catalog-filter-item">
          <label class="control">
              <input class="control-imput" type="checkbox" name="parking" checked>Парковка
@@ -77,14 +78,14 @@
         </label>
              </li>
          </ul> 
-    </fieldset>  
-      <fieldset class="catalog-filter-group">
+        </fieldset>  
+        <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Тип жилья</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-        <label class="control">
+          <label class="control">
             <input class="control-imput" type="radio" name="product-group" value="hotel" checked>Гостиница
-        </label>
+          </label>
               </li>
             <li class="catalog-filter-item">
          <label class="control">
@@ -100,16 +101,17 @@
       </fieldset>  
     <button class="button" type="submit">Применить</button>
     </form>
-  </section>
-</div>
-  <div class="hotels-found">
-    <h3 class="hotels-found">Найдено гостиниц: 38</h3>
   </div>
-      <select class="select-control" aria-label="Сортировка">
+    <div class="hotels-found">
+     <h3 class="hotels-found">Найдено гостиниц: 38</h3>
+    </div>
+    <div class="select">
+     <select class="select-control" aria-label="Сортировка">
          <option value="popular">Сначало популярные</option>
          <option value="cheap">Дешевые</option>
          <option value="expensive">Дорогие</option>
-      </select>
+     </select>
+    </div> 
         <a href="#" class="button button-light">
             <span class="visually-hidden">Показать плиткой</span>
         </a>
@@ -120,6 +122,7 @@
             <span class="visually-hidden">Показать списком</span>
         </a>
 
+    <!-- Список товаров -->
     <ul class="product-list">
         <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -163,8 +166,10 @@
         </li>
     </ul>
     <button class="buttom-paginatio-show-more" type="button">Загрузить еще</button>
+    
+    <!-- Пагинация -->
     <div class="sorting-container">
-    <ul class="pagination">
+     <ul class="pagination">
         <li class="pagination-item">
             <a class="pagination-linkpagination-prev-pagination-disabled">
                 <span class="visually-hidden">Предыдущая страница</span>
@@ -193,9 +198,14 @@
             <a class="pagination-link pagination-prev pagination-next">
                 <span class="visually-hidden">Следующая страница</span>
             </a>
-     </ul>
+      </ul>
     </div>
-    <section class="newsletter">
+
+  </section>
+
+
+
+  <section class="newsletter">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
          <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -205,8 +215,8 @@
              <span class=" visually-hidden">Отправить</span>
           </button>
     </form>
-    </section>
-  </div>    
+</section>
+   
 </main>
 <footer class="footer-page">
   <div class="footer-page-container">
