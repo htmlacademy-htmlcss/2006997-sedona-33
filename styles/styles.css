@@ -87,6 +87,11 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+
+.buttom-paginatio-show-more {
+    width: 620px;
+    margin-left: 330px;
+}
 .navigation-link  {
     font-size: 20px;
     line-height: 26px;
@@ -214,19 +219,34 @@ body {
     line-height: 26px;
     color: #333333;
 }
-
-.catalog-products{
-    font-size: 45px;
-    color: rgb(85, 247, 10);
-}
-
-.filter-grup {
-    background-image: url("/images/catalog-background-1.jpg"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #83B3D3;
+.filter-background {
+    background-image: url("../images/catalog-background-1.jpg"); 
+    background-size: 100% auto;
     color: #FFFFFF;
 }
+.catalog-products{
+    display: flex;
+}
+.product-card {
+    
+}
+.catalog-filter {
+    width: 170px;
+    padding-left: 71px;
+}
+.under-filter {
+    display: flex;
+    width: 1200px;
+
+}
+.hotels-found {
+    width: 3370px;
+    padding-left: 71px;
+}
+.catalog-right-column {
+    margin-left: 660px;  
+}
+
 .inner-header-tittle {
     font-weight: 700;
     font-size: 60px;
@@ -316,7 +336,7 @@ body {
 .footer-page-container {
     display: flex;
     width: 1200px;
-    pad: 0 auto; 
+    margin: 0 auto;
 }
 .footer-nunber {
     width: 720px;
