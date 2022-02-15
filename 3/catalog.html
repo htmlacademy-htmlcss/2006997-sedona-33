@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Каталог</title>
+    <title>Каталог гостиниц</title>
     <link rel="stylesheet" href="styles/styles.css">
     <base href="https://htmlacademy-htmlcss.github.io/2006997-sedona-33/3/">
 </head>
@@ -11,8 +11,8 @@
       <img class="page-header-logo" alt="Логотип Седона»." src="images/logo.svg" width="139" height="70"> 
     </a>
     <header class="page-header">
-        <nav class="navigation">
-          <ul class="navigation-list">
+     <nav class="navigation">
+       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link" href="about.html">Главная</a>
         </li>
@@ -23,8 +23,7 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
           </ul>
-        </nav> 
-        <ul class="user-list">
+        <ul class="navigation-list user-list">
           <li class="user-item">
             <a class="navigation-link" href="#">
             <span class="visually-hidden">Поиск</span>
@@ -36,34 +35,43 @@
             </a>
           </li>
           <li class="user-item">
-          <button class="button-user-link" href="#">Хочу сюда</button>
+          <button class="button-user-link">Хочу сюда</button>
           </li>
         </ul>
+      </nav> 
          </header>
+
+
 <main class="main-inner">
-    <div class="filter-grup">
-    <div class="inner-header">
+  <div class="page-container">
+    <div class="filter-background">
+       <!-- Хлебные крошки -->
+      <div class="inner-header">
         <h1 class="inner-header-tittle">Гостиницы Седоны</h1>
-    <ul class="breadcrumbs">
-        <li class="breadcrumbs-item">
+         <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">Главная</a>
-        </li>
-        <li class="breadcrumbs-item">
+          </li>
+          <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Гостиницы</a>
-        </li> 
-    </ul>
-  </div>
-<section class="catalog-products">
-    <h2 class="visually-hidden">Список фильтров для гостиницы</h2>
-    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-      <fieldset class="catalog-filter-group">   
-        <legend class="catalog-filter-title">Инфраструктура</legend>
+          </li> 
+         </ul>
+      </div>
+
+    <section class="catalog-products">
+     <h2 class="visually-hidden" hidden>Список фильтров для гостиницы</h2>
+
+     <!-- Фильтрация -->
+
+      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+        <fieldset class="catalog-filter-group">   
+         <legend class="catalog-filter-title">Инфраструктура</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-        <label class="control">
+         <label class="control">
             <input class="control-imput" type="checkbox" name="pool" checked>Бассейн
-        </label>
-              </li>
+         </label>
+            </li>
             <li class="catalog-filter-item">
          <label class="control">
              <input class="control-imput" type="checkbox" name="parking" checked>Парковка
@@ -75,14 +83,14 @@
         </label>
              </li>
          </ul> 
-    </fieldset>  
-      <fieldset class="catalog-filter-group">
+        </fieldset>  
+        <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Тип жилья</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-        <label class="control">
+          <label class="control">
             <input class="control-imput" type="radio" name="product-group" value="hotel" checked>Гостиница
-        </label>
+          </label>
               </li>
             <li class="catalog-filter-item">
          <label class="control">
@@ -98,15 +106,20 @@
       </fieldset>  
     <button class="button" type="submit">Применить</button>
     </form>
-  </div>
-  <div class="hotels-found">
-    <h3 class="hotels-found">Найдено гостиниц: 38</h3>
-  </div>
-      <select class="select-control" aria-label="Сортировка">
+  </section>
+    </div>
+    <div class="under-filter">
+      <div class="hotels-found">
+       <h3 class="hotels-found-title">Найдено гостиниц: 38</h3>
+    </div>
+     <div class="catalog-right-column">
+      <div class="select">
+     <select class="select-control" aria-label="Сортировка">
          <option value="popular">Сначало популярные</option>
          <option value="cheap">Дешевые</option>
          <option value="expensive">Дорогие</option>
-      </select>
+     </select>
+     </div>
         <a href="#" class="button button-light">
             <span class="visually-hidden">Показать плиткой</span>
         </a>
@@ -116,7 +129,9 @@
         <a class="button" href="#">
             <span class="visually-hidden">Показать списком</span>
         </a>
-
+     </div>
+    </div>
+    <!-- Список товаров -->
     <ul class="product-list">
         <li class="product-card">
             <a class="product-card-link" href="product.html">
@@ -160,9 +175,10 @@
         </li>
     </ul>
     <button class="buttom-paginatio-show-more" type="button">Загрузить еще</button>
-    <ul class="pagination">
-
-      <div class="sorting-container">
+    
+    <!-- Пагинация -->
+    <div class="sorting-container">
+     <ul class="pagination">
         <li class="pagination-item">
             <a class="pagination-linkpagination-prev-pagination-disabled">
                 <span class="visually-hidden">Предыдущая страница</span>
@@ -191,10 +207,9 @@
             <a class="pagination-link pagination-prev pagination-next">
                 <span class="visually-hidden">Следующая страница</span>
             </a>
-    </ul>
-  </div>
-</section>
-    <section class="newsletter">
+      </ul>
+    </div>
+  <section class="newsletter">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
          <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -204,9 +219,11 @@
              <span class=" visually-hidden">Отправить</span>
           </button>
     </form>
-    </section>
+  </section>
+  </div>  
 </main>
 <footer class="footer-page">
+  <div class="footer-page-container">
   <div class="footer-social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
@@ -229,17 +246,18 @@
             </a>
         </li>
       </ul>
-    </div>
-  <div class="footer-nunber">
+      </div>
+      <div class="footer-nunber">
           <h2 class="visually-hidden">Номер телефона</h2>
           <a class="number-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
-  </div>
-  <div class="footer-logo">
+      </div>
+      <div class="footer-logo">
           <h2 class="visually-hidden">Логотип</h2>
           <a class="footer-logo" href="https://htmlacademy.ru/">
           <img class="footer-logo-page" src="images/htmlak-logo.svg" width="115" height="34" alt="Логотип HTML Academy">
           </a>
-        </div>          
+        </div>
+      </div>            
 </footer>
 </body>
 </html>

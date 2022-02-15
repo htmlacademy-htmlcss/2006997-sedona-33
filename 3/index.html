@@ -23,9 +23,7 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
        </li>
     </ul>
-  </nav>
-
-  <ul class="user-list">
+   <ul class="navigation-list user-list">
     <li class="user-item">
       <a class="navigation-link" href="#">
       <span class="visually-hidden">Поиск</span>
@@ -36,14 +34,18 @@
       <span class="visually-hidden"> Нравится</span>
       </a>
     </li>
-    <li class="user-item">
-    <button class="button-user-link" href="#">Хочу сюда</button>
+     <li class="user-item">
+      <button class="button-user-link">Хочу сюда</button>
     </li>
-  </ul>
+   </ul>
+</nav>
   </header>
-    <main class="main-index">
+    <main class="main-container main-index">
+    <div class="page-container">
+      <div class="welcome">
       <h1 class="visyally-hidden">Добро пожаловать в Седону</h1>
-      <img class="logo-center" src="images/welcome.svg" alt="Логотип Седона." width="458" height="352" >
+      <img class="logo" src="images/welcome.svg" alt="Логотип Седона." width="458" height="352" >
+    </div>
   <section class="offer">
         <h2 class="main-index-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="main-index-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -82,17 +84,20 @@
       </li>
     </ul>
     <ul class="advantages-list-icon">
-      <li class="advanfates-item">
-        <h3 class="advanfates-title">Жилье</h3>
+      <li class="advanfates-item-icon">
+        <img class="benefit" src="images/icon-1.svg" alt="Жилье" width="75" height="72">
+        <h3 class="advanfates-title-icon">Жилье</h3>
         <p class="advanfates-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
       </li>
-      <li class="advanfates-item">
-        <h3 class="advanfates-title">Еда</h3>
-        <p class="advanfates-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+      <li class="advanfates-item-icon">
+        <img class="benefit" src="images/icon-2.svg" alt="Еда" width="74" height="70">
+        <h3 class="advanfates-title-icon">Еда</h3>
+        <p class="advanfates-description-icon">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
       </li>
-      <li class="advanfates-item">
-          <h3 class="advanfates-title">Сувениры</h3>
-          <p class="advanfates-description">Не только китайского, но и настоящего местного производства!</p>
+      <li class="advanfates-item-icon">
+        <img class="benefit" src="images/icon-3.svg" alt="Сувениры" width="64" height="76">
+        <h3 class="advanfates-title-icon">Сувениры</h3>
+        <p class="advanfates-description-icon">Не только китайского, но и настоящего местного производства!</p>
       </li>
     </ul>
     </section>
@@ -100,7 +105,7 @@
         <h2 class="visually-hidden">Поиск гостиницы</h2>
           <h3 class="hotel-search-title">Заинтересовались?</h3>
           <p class="hotel-search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <button class="button-search" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+          <button class="button-search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       </section>
 <!--Подписка-->
       <section class="newsletter">
@@ -114,8 +119,10 @@
             </button>
           </form>
       </section>
+    </div> 
     </main>
     <footer class="footer-page">
+      <div class="footer-page-container">
       <div class="footer-social">
           <h2 class="visually-hidden">Социальные сети</h2>
           <ul class="footer-social-list">
@@ -138,7 +145,7 @@
                 </a>
             </li>
           </ul>
-        </div>
+      </div> 
       <div class="footer-nunber">
               <h2 class="visually-hidden">Номер телефона</h2>
               <a class="number-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
@@ -148,7 +155,8 @@
               <a class="footer-logo" href="https://htmlacademy.ru/">
               <img class="footer-logo-page" src="images/htmlak-logo.svg" width="115" height="34" alt="Логотип HTML Academy">
               </a>
-            </div>          
+            </div>
+          </div>   
     </footer>
   </body>
 </html>

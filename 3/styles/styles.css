@@ -3,7 +3,7 @@
     font-family:"PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2") format("woff2")
+    src: url("/fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
@@ -14,7 +14,15 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -33,6 +41,9 @@ body {
 }
 
 .button-search {
+    width: 575px;
+    margin-left: 313px;
+    margin-right: 312px;
     background: #756257;
     color: #FFFFFF;
     font-weight: 700;
@@ -76,6 +87,11 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+
+.buttom-paginatio-show-more {
+    width: 620px;
+    margin-left: 330px;
+}
 .navigation-link  {
     font-size: 20px;
     line-height: 26px;
@@ -84,18 +100,56 @@ body {
     text-align: center;
     text-decoration: none;
 }
+.navigation {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.navigation-list {
+    margin: 0;
+    padding: 0;
+}
+.user-list {
+    max-width: 250px;
+    margin-left: auto;
+}
+.welcome {
+    width: 1200px;
+    background-image: url("../images/index-background.jpg");
+}
+.offer {
+    width: 1200px;
+    height: 282px;
+}
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-container {
+    flex-grow: 1;
+}
 .main-index {
-    background-image: url("/images/index-background.jpg");
     background-color: #FFFFFF;
     background-size: 100% auto;
     background-repeat: no-repeat;
-  }
-.logo-center {
+}
+
+.logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    margin: 0 auto;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000000;
+}
   .main-index-title {
+    width: 720px;
+    margin-left: 240px;
     color: #000000;
     font-weight: 700;
     font-size: 30px;
@@ -104,15 +158,51 @@ body {
     text-transform: uppercase;
   }
   .main-index-description {
+    width: 720px;
+    margin-left: 240px;
     color: #333333;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
     text-align: center;
 }
-
-
+.advantages-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.advantages-list > ul {
+    width: 200px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 10px;
+  }
+.advantages-list-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #83B3D31F;
+    color: #000000;
+    text-align: center;
+}
+.advanfates-title-icon {
+    width: 400px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.advanfates-description-icon {
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
 .hotel-search {
+    width: 1200px;
     background-color: #FFFFFF;
     color:#000000 ;
     text-align: center;
@@ -129,15 +219,34 @@ body {
     line-height: 26px;
     color: #333333;
 }
-
-
-.filter-grup {
-    background-image: url("/images/catalog-background-1.jpg");
+.filter-background {
+    background-image: url("../images/catalog-background-1.jpg"); 
     background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-color: #83B3D3;
     color: #FFFFFF;
 }
+.catalog-products{
+    display: flex;
+}
+.product-card {
+    
+}
+.catalog-filter {
+    width: 170px;
+    padding-left: 71px;
+}
+.under-filter {
+    display: flex;
+    width: 1200px;
+
+}
+.hotels-found {
+    width: 3370px;
+    padding-left: 71px;
+}
+.catalog-right-column {
+    margin-left: 660px;  
+}
+
 .inner-header-tittle {
     font-weight: 700;
     font-size: 60px;
@@ -203,7 +312,9 @@ body {
     background-color: #F2F2F2;
 }
 .newsletter {
-    background-image: url("/images/background-letter.jpg");
+    width: 1200px;
+    height: 411px;
+    background-image: url("../images/background-letter.jpg");
     background-color: black;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -221,11 +332,23 @@ body {
     font-size: 22px;
     line-height: 26px;
 }
+
+.footer-page-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
 .footer-nunber {
+    width: 720px;
+    margin-left: 240px;
+    margin-right: 240px;
     color: #000000;
     background-color: #FFFFFF;
-    text-align: center;
-    
+    text-align: center;   
+}
+.footer-logo {
+    width: 115px;
+    margin-right: 72px;
 }
 .number-phone {
     color: #000000;
