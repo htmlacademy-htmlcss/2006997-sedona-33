@@ -78,7 +78,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-.buttom-paginatio-show-more {
+.buttom-pagination-show-more {
     background-color: #83B3D3;
     color: #FFFFFF;
     font-weight: 700;
@@ -86,9 +86,6 @@ body {
     line-height: 26px;
     text-transform: uppercase;
     text-align: center;
-}
-
-.buttom-paginatio-show-more {
     width: 620px;
     margin-left: 330px;
 }
@@ -104,6 +101,7 @@ body {
     display: flex;
     width: 1200px;
     margin: 0 auto;
+    padding: 0;
 }
 .navigation-list {
     margin: 0;
@@ -124,6 +122,8 @@ body {
 .page-container {
     width: 1200px;
     margin: 0 auto;
+    padding-left: 72px;
+    padding-right: 72px;
 }
 .main-container {
     flex-grow: 1;
@@ -134,7 +134,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.logo {
+.welcome-sedona {
     display: block;
     margin: 0 auto;
 }
@@ -166,12 +166,7 @@ body {
     line-height: 36px;
     text-align: center;
 }
-.advantages-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
 .advantages-list > ul {
     width: 200px;
     height: 50px;
@@ -224,13 +219,21 @@ body {
     background-size: 100% auto;
     color: #FFFFFF;
 }
-.catalog-products{
+.product-list{
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 .product-card {
-    
+    width: 340px; 
+}
+
+.pagination {
+    display: flex;
+    padding: 0;
 }
 .catalog-filter {
+    display: flex;
     width: 170px;
     padding-left: 71px;
 }
@@ -240,7 +243,7 @@ body {
 
 }
 .hotels-found {
-    width: 3370px;
+    width: 337px;
     padding-left: 71px;
 }
 .catalog-right-column {
@@ -331,6 +334,11 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
+}
+
+.footer-page {
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
 .footer-page-container {
