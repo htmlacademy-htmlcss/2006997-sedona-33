@@ -3,14 +3,14 @@
     font-family:"PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family:"PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -47,7 +47,7 @@ body {
     background: #756257;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 36px;
 }
 .button-product-card {
@@ -97,14 +97,24 @@ body {
     text-align: center;
     text-decoration: none;
 }
-.navigation {
+.testt {
     display: flex;
     width: 1200px;
     margin: 0 auto;
+}
+
+.navigation-logo {
+    width: 138px;
+    margin-left: 70px;
+}
+.navigation {
+    display: flex;
+    margin:  0;
     padding: 0;
 }
 .navigation-list {
-    margin: 0;
+    width: 450px;
+    margin-left: 42px;
     padding: 0;
 }
 .user-list {
