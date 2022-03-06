@@ -53,9 +53,9 @@ body {
 
 .button-search {
   width: 575px;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 56px;
-  margin-bottom: 94px;
+  margin-bottom: 92px;
   background: #756257;
   color: #FFFFFF;
   font-weight: 700;
@@ -278,13 +278,42 @@ text-transform: uppercase;
 }
 .advantages-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin: 0;
   padding: 0;
   text-align: center;
   color: #000000;
   list-style-type: none;
+}
+.advanfates-item {
+    background-color: rgba(131, 179, 211, 0.2);
+    width: 400px;
+}
+
+.advanfates-item:nth-child(odd) {
+    background-color:rgba(131, 179, 211, 0.12);
+}
+.advanfates-title {
+margin-top: 98px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.advanfates-description {
+font-family: PT Sans;
+margin-top: 30px;
+margin-bottom: 108px;
+color: #333333;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
 }
 
 
@@ -295,10 +324,9 @@ text-transform: uppercase;
   padding: 10px;
 }
 
-.icon-home {
-  background-image: url(../images/icon-1.svg);
+.icon {
+    margin-top: 90px;
 }
-
 .advantages-list-icon {
   display: flex;
   justify-content: space-between;
@@ -306,15 +334,16 @@ text-transform: uppercase;
   height: 384px;
   margin: 0;
   padding: 0;
-  background-color: #83B3D31F;
   color: #000000;
   text-align: center;
   list-style-type: none;
 }
-
+.advanfates-item-icon:nth-child(odd) {
+    background-color:#83B3D31F;
+}
 .advanfates-title-icon {
   width: 400px;
-  margin-top: 184px;
+  margin-top: 24px;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -323,7 +352,6 @@ text-transform: uppercase;
 
 .advanfates-description-icon {
   color: #333333;
-  margin-top: 20px;
   margin-bottom: 80px;
   font-weight: 400;
   font-size: 18px;
@@ -335,7 +363,6 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   width: 1200px;
-  height: 417px;
   background-color: #FFFFFF;
   color: #000000;
   text-align: center;
@@ -352,8 +379,8 @@ text-transform: uppercase;
 
 .hotel-search-description {
   font-weight: 400;
+  margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 56px;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
