@@ -8,23 +8,23 @@
 </head>
 
 <body>
-  <a class="navigation-logo" href="#">
-    <img class="page-header-logo" alt="Логотип Седона»." src="images/logo.svg" width="139" height="70">
-  </a>
   <header class="page-header">
     <nav class="navigation">
+      <a class="navigation-logo" href="#">
+        <img class="page-header-logo" alt="Логотип Седона»." src="images/logo.svg" width="139" height="70">
+      </a>
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="about.html">Главная</a>
+          <a class="navigation-link" href="#">Главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="about.html">О Седоне</a>
+          <a class="navigation-link" href="#">О Седоне</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
-      <ul class="navigation-list user-list">
+      <ul class="user-list">
         <li class="user-item">
           <a class="navigation-link" href="#">
             <span class="visually-hidden">Поиск</span>
@@ -109,27 +109,34 @@
         <div class="hotels-found">
           <h3 class="hotels-found-title">Найдено гостиниц: 38</h3>
         </div>
-        <div class="select">
-          <div class="sorting-container">
+        <div class="sorting-container">
+
             <select class="select-control" aria-label="Сортировка">
               <option value="popular">Сначало популярные</option>
               <option value="cheap">Дешевые</option>
               <option value="expensive">Дорогие</option>
             </select>
-          </div>
+
+         <ul class="sorting-right">
+           <li class="sorting-item">
           <a href="#" class="button button-light">
-            <span class="visually-hidden1">Показать плиткой</span>
+            <span class="visually-hidden1">Плитка</span>
           </a>
+           </li>
+           <li class="sorting-item">
           <a href="#" class="button">
-            <span class="visually-hidden1">Показать таблицей</span>
+            <span class="visually-hidden1">Таблица</span>
           </a>
+        </li>
+        <li class="sorting-item">
           <a href="#" class="button">
-            <span class="visually-hidden1">Показать списком</span>
+            <span class="visually-hidden1">Список</span>
           </a>
+        </li>
+        </ul>
         </div>
 
       </div>
-
       <!-- Список товаров -->
       <ul class="product-list">
         <li class="product-card">
