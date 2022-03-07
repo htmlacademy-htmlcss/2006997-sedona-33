@@ -171,6 +171,7 @@ navigation-logo {
 .page-header {
   display: flex;
   width: 1060px;
+  height: 70px;
   margin: 0 auto;
 }
 
@@ -225,7 +226,6 @@ navigation-logo {
 
 .main-container {
   flex-grow: 1;
-  padding-top: 51px;
   padding-bottom: 82px;
 }
 
