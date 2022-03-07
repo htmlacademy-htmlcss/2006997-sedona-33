@@ -58,7 +58,6 @@
         </div>
         <!-- Фильтрация -->
         <section class="catalog-products">
-          <h2 class="visually-hidden" hidden>Список фильтров для гостиницы</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Инфраструктура</legend>
@@ -111,29 +110,29 @@
         </div>
         <div class="sorting-container">
 
-            <select class="select-control" aria-label="Сортировка">
-              <option value="popular">Сначало популярные</option>
-              <option value="cheap">Дешевые</option>
-              <option value="expensive">Дорогие</option>
-            </select>
+          <select class="select-control" aria-label="Сортировка">
+            <option value="popular">Сначало популярные</option>
+            <option value="cheap">Дешевые</option>
+            <option value="expensive">Дорогие</option>
+          </select>
 
-         <ul class="sorting-right">
-           <li class="sorting-item">
-          <a href="#" class="button button-light">
-            <span class="visually-hidden1">Плитка</span>
-          </a>
-           </li>
-           <li class="sorting-item">
-          <a href="#" class="button">
-            <span class="visually-hidden1">Таблица</span>
-          </a>
-        </li>
-        <li class="sorting-item">
-          <a href="#" class="button">
-            <span class="visually-hidden1">Список</span>
-          </a>
-        </li>
-        </ul>
+          <ul class="sorting-right">
+            <li class="sorting-item">
+              <a href="#" class="button button-light">
+                <span class="visually-hidden1">Плитка</span>
+              </a>
+            </li>
+            <li class="sorting-item">
+              <a href="#" class="button">
+                <span class="visually-hidden1">Таблица</span>
+              </a>
+            </li>
+            <li class="sorting-item">
+              <a href="#" class="button">
+                <span class="visually-hidden1">Список</span>
+              </a>
+            </li>
+          </ul>
         </div>
 
       </div>
@@ -145,7 +144,7 @@
               alt="Гостиница на горе">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
-          <h3 class="product-card-frame">Гостиница</h3>
+          <p class="product-card-frame">Гостиница</p>
           <p class="product-card-prise">От 4000 ₽</p>
           <a class="product-card-button-detail" href="#">Подробнее</a>
           <button class="button-product-card" type="submit">В избранное</button>
@@ -156,7 +155,7 @@
               alt="Гостиница в пустыне">
             <h3 class="product-card-title">Desert Quail Inn</h3>
           </a>
-          <h3 class="product-card-frame">Гостиница</h3>
+          <p class="product-card-frame">Гостиница</p>
           <p class="product-card-prise">От 3000 ₽</p>
           <a class="product-card-button-detail" href="#">Подробнее</a>
           <button class="button-product-card" type="submit">В избранное</button>
@@ -167,7 +166,7 @@
               alt="Гостница под холмом">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
           </a>
-          <h3 class="product-card-frame">Гостиница</h3>
+          <p class="product-card-frame">Гостиница</p>
           <p class="product-card-prise">От 2000 ₽</p>
           <a class="product-card-button-detail" href="#">Подробнее</a>
           <button class="button-product-card" type="submit">В избранное</button>
@@ -178,7 +177,7 @@
               alt="Гостиница в лесу">
             <h3 class="product-card-title">GreenTree Inn</h3>
           </a>
-          <h3 class="product-card-frame">Гостиница</h3>
+          <p class="product-card-frame">Гостиница</p>
           <b class="product-card-prise">От 3000 ₽</b>
           <a class="product-card-button-detail" href="#">Подробнее</a>
           <button class="button-product-card" type="submit">В избранное</button>
@@ -188,29 +187,29 @@
 
       <!-- Пагинация -->
 
-      <div class="sorting-container-page">
+      <div class="pagination-container">
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-linkpagination-prev-pagination-disabled">
               <span class="visually-hidden">Предыдущая страница</span>
             </a>
           </li>
-          <li class="pafination-item">
+          <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
           </li>
-          <li class="pafination-item">
+          <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
           </li>
-          <li class="pafination-item">
+          <li class="pagination-item">
             <a class="pagination-link" href="#">3</a>
           </li>
-          <li class="pafination-item">
+          <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
           </li>
-          <li class="pafination-item">
+          <li class="pagination-item">
             <a class="pagination-link" href="#">...</a>
           </li>
-          <li class="pafination-item">
+          <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
           <li class="pagination-item">
@@ -231,9 +230,10 @@
 
       <!-- Подписка -->
 
-      <section class="newsletter2">
-        <h2 class="newsletter-title2">Подпишитесь на рассылку</h2>
-        <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <section class="newsletter-catalog">
+        <h2 class="newsletter-catalog-title">Подпишитесь на рассылку</h2>
+        <p class="newsletter-catalog-description">Только полезная информация и никакого спама,<br>честное бойскаутское!
+        </p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
           <input class="field" placeholder="Ваш email" type="email" name="newsletter-email" id="newsletter-email"
