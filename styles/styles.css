@@ -44,14 +44,25 @@ body {
 .button-user-link {
   background-color: #756257;
   color: #FFFFFF;
+  font-family: 'PT Sans';
+  font-style: normal;
   font-weight: 700;
+  margin: 0;
+  padding: 8px 38px;
   margin-left: 20px;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
+.button-user-link:hover {
+  background-color: #615048;
+}
+.button-user-link:active{
+  opacity: 0.3;
+}
 .button-search {
   width: 575px;
   margin: 0 auto;
@@ -62,11 +73,21 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  border-radius: 10px;
+}
+.button-search:hover {
+  background-color: #615048;
+}
+.button-search:active {
+  opacity: 0.3;
 }
 
 .button-product-card {
   width: 140px;
   padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 140px;
   background-color: #83B3D3;
   color: #FFFFFF;
   font-weight: 700;
@@ -74,7 +95,16 @@ body {
   line-height: 21px;
   text-align: center;
   text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
 }
+.button-product-card:hover {
+  background-color: #68A2CA;
+}
+.button-product-card:active {
+  opacity: 0.3;
+}
+
 
 .newsletter-button {
   width: 200px;
@@ -86,8 +116,15 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   text-align: center;
+  border-radius: 0px 10px 10px 0px;
 }
 
+.newsletter-button:hover {
+  background-color: #68A2CA;
+}
+.newsletter-button:active {
+  opacity: 0.3;
+}
 
 
 .buttom-pagination-show-more {
@@ -115,8 +152,16 @@ body {
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
-
-
+  border-radius: 4px;
+}
+.buttom-advantages-list-show-more:hover {
+  background-color: #68A2CA;
+  border-radius: 10px;
+}
+.buttom-advantages-list-show-more:active {
+  border-radius: 10px;
+  opacity: 0.3;
+  
 }
 
 .navigation {
@@ -137,6 +182,20 @@ body {
   color: black;
   text-align: center;
   text-decoration: none;
+}
+
+.navigation-link:hover {
+  color: #756257;
+}
+
+.navigation-icon:hover {
+  fill: #756257;
+}
+.navigation-link:active {
+  opacity: 0.3;
+}
+.navigation-icon:active {
+fill:#756257;
 }
 
 .navigation-link-icon {
@@ -165,13 +224,12 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 250px;
   margin: 0;
   margin-left: auto;
   list-style-type: none;
 }
 
-navigation-logo {
+.navigation-logo {
   display: flex;
   align-items: center;
   width: 138px;
@@ -494,6 +552,8 @@ navigation-logo {
 .product-card-button-detail {
   width: 132px;
   margin-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #756257;
   color: #FFFFFF;
   font-weight: 700;
@@ -502,7 +562,16 @@ navigation-logo {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  border-radius: 4px;
 }
+.product-card-button-detail:hover {
+  background-color: #615048;
+}
+
+.product-card-button-detail:active {
+  opacity: 0.3;
+}
+
 
 .star-rating {
   display: flex;
@@ -534,7 +603,8 @@ navigation-logo {
 }
 
 .catalog-products {
-  margin-top: 35px;
+
+  margin-top: 45px;
   padding: 0;
 }
 
@@ -545,7 +615,7 @@ navigation-logo {
 }
 
 .catalog-filter-title {
-  margin-left: 50px;
+  margin-left: 72px;
   padding: 0;
   font-family: PT Sans;
   font-style: normal;
@@ -556,11 +626,20 @@ navigation-logo {
 
 .catalog-filter-group {
   border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .catalog-filter-list {
+  margin: 0;
+  margin-left: 72px;
+  margin-bottom: 80px;
+  padding: 0;
   border: 0;
   list-style-type: none;
+}
+.catalog-filter-item {
+  margin-top: 13px;
 }
 
 .hotels-found {
@@ -577,7 +656,9 @@ navigation-logo {
 }
 
 .breadcrumbs-item {
-
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px
@@ -661,7 +742,7 @@ navigation-logo {
 }
 
 .subscribe {
-  margin-bottom: 94px;
+  text-align: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -689,7 +770,6 @@ navigation-logo {
 
 
 .breadcrumbs-link {
-  margin-right: 32px;
   color: inherit;
 }
 
@@ -836,7 +916,7 @@ navigation-logo {
 .footer-page {
   padding: 0;
   margin: 40px auto;
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
 .footer-page-container {
@@ -886,4 +966,7 @@ navigation-logo {
   width: 20px;
   height: 16px;
   margin-right: 30px;
+}
+.footer-social-item:hover {
+  color: red;
 }
